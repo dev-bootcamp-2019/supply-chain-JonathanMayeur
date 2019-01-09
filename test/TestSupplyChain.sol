@@ -5,6 +5,7 @@ import "truffle/DeployedAddresses.sol";
 import "../contracts/SupplyChain.sol";
 
 contract TestSupplyChain {
+    SupplyChain sp = SupplyChain(DeployedAddresses.SupplyChain());
 
     // Test for failing conditions in this contracts
     // test that every modifier is working
